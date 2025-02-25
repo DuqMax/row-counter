@@ -57,7 +57,7 @@ body {
 #counter-buttons {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 13px;
     gap: 10px;
 }
 
