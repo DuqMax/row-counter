@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #353535;
+    color: whitesmoke;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    max-height: 720px;
+    background: #9a031e;
+    border: 6px solid #000814;
+    border-radius: 24px;
+    color: aliceblue;
+    cursor: default;
+    box-shadow: 0px 2px 25px black;
+}
+
+.btn {  
+    padding: 15px 0px;
+    margin: 5px auto;
+    width: 200px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: whitesmoke;
+    border: 4px solid #000814;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#increment {
+    background-color: #007ea7;
+}
+
+#save {
+    background-color: #4f772d;
+}
+
+#sum {
+    background-color: #dc2f02;
+    margin-bottom: 24px;
+}
+
+#title {
+    margin-bottom: 0px;
+    font-size: 42px;
+}
+
+#counter {
+    margin: 20px 0px 15px 0px;
+    font-size: 48px;
+    background-color: #000814;
+    padding: 15px;
+    border-radius: 20px;
+    border: 4px solid wheat;
+}
+
+#previous-data {
+    margin-top: 0px;
+    font-size: 18px;
+    max-width: 370px;
+}
