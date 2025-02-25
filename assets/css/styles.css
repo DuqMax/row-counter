@@ -33,7 +33,7 @@ body {
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 #increment {
@@ -52,6 +52,34 @@ body {
 #title {
     margin-bottom: 0px;
     font-size: 42px;
+}
+
+#counter-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+#decrement {
+    font-size: 24px;
+    padding: 0px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+#decrement:hover, #reset:hover {
+    transform: scale(1.05);
+}
+
+#reset {
+    width: 48px;
+    height: 48px;
+    background-color: aliceblue;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
 }
 
 #counter {
