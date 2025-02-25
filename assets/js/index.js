@@ -32,3 +32,17 @@ function sum() {
         total = 0
     }
 }
+
+function reset() {
+    if (count != 0) {
+        count = 0
+        counterLabel.textContent = 0
+    }
+}
+
+function decrement() {
+    if (count > 0) {
+        count--
+        counterLabel.textContent = count
+    }
+}
