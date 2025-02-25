@@ -34,10 +34,12 @@ function sum() {
 }
 
 function reset() {
-    if (count != 0) {
+    if (total != 0) {
+        total = 0
         count = 0
+        previousEntries.textContent = "Previous entries: "
         counterLabel.textContent = 0
-    }
+    }       
 }
 
 function decrement() {
